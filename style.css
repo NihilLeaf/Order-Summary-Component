@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 18pt;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #301712;
+}
+
+
+.card {
+    position: fixed;
+    flex-direction: column;
+    background-color: #321f18;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 30px;
+}
+
+.imagem-top {
+    width: 100%;
+    height: 20vh;
+    background: transparent no-repeat center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 0.8 black;
+}
+
+.plano {
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #432620;
+}
+
+.preco {
+    text-align: center;
+}
+
+.preco small {
+    color: #f3a880;
+}
+
+.plano .preco h6 {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #f6da86;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.cancel {
+    margin-top: 2%;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.footer button {
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    background-color: #350810;
+    color: #f0f85c;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px 0.8 black;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    width: 22vw;
+    color: #ff5e00;
+    transition: all 300ms ease;
+}
+
+.plano span {
+    width: 5vw;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    color: #f6da86;
+    border-radius: 50px;
+    background-color: #9c2b19;
+}
+
+.plano small {
+    font-size: 0.5rem;
+    align-items: center;
+}
+
+.plano h6 {
+    font-size: 0.8rem;
+    color: #ff5e00;
+}
+
+p {
+    font-size: 0.6rem;
+    padding: 0 40px;
+    color: #f6da86;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ff5e00;
+}
