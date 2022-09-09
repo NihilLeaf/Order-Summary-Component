@@ -17,11 +17,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #301712;
+    margin: 0;
+    padding: 0;
 }
 
 
 .card {
-    position: fixed;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #321f18;
     width: 50vw;
@@ -41,11 +44,13 @@ body {
 }
 
 .plano {
-    width: 50vw;
+    width: 40vw;
     height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+    border-radius: 40px;
     background-color: #432620;
 }
 
@@ -75,14 +80,15 @@ a {
 }
 
 .cancel {
-    margin-top: 2%;
+    margin-top: 8%;
     font-size: 0.5rem;
     text-align: center;
 }
 
 .footer button {
-    width: 20vw;
-    height: 10vh;
+    width: 15vw;
+    height: 8vh;
+    font-size: 0.7rem;
     text-align: center;
     background-color: #350810;
     color: #f0f85c;
@@ -92,7 +98,7 @@ a {
 }
 
 .footer button:hover {
-    width: 22vw;
+    width: 16vw;
     color: #ff5e00;
     transition: all 300ms ease;
 }
