@@ -69,6 +69,7 @@ body {
 a {
     text-decoration: none;
     color: #f6da86;
+    cursor: pointer;
 }
 
 .footer {
